@@ -5,7 +5,7 @@
     font-family: sans-serif;
 }
 .test-h{
-    height: 3rem;
+    height: 5rem;
 }
 
 .flex{
@@ -16,11 +16,23 @@
     position: relative;
 }
 
+.T-align-c{
+    text-align: center;
+}
+
 .b-blue{
     color: white;
     padding: 1rem;
     background-color: blue;
     text-decoration: none;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.p90w{
+    width: 90%;
 }
 
 /* HEADER */
@@ -58,7 +70,6 @@ header div:first-child{
     margin: auto;
     flex-wrap: wrap;
     justify-content: space-between;
-
 }
 
 .title-box{
@@ -84,4 +95,91 @@ header div:first-child{
 
 .container-x-abolutebox{
     width: 70%;
+}
+
+
+/* SECOND SECTION */
+
+.second-section-box{
+    width: 60% ;
+    margin: 10rem auto;
+}
+
+.second-section-box h2{
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+
+.second-section-box .left1{
+    margin-left: 1rem;
+}
+
+input[type="radio"] {
+    appearance: none;
+}
+
+/* BUSINESS PLANS */
+
+.plans-container{
+    margin-top: 3rem;
+    justify-content: space-between;
+}
+
+.plans-box{
+    border: 1px solid black;
+    width: calc((100% / 3) - 1.5rem);
+}
+
+.plans-box .p-title{
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid black;
+    padding: 1rem;
+}
+.plans-box i{
+    margin-right: 0.5rem;
+}
+
+.inside-box-text{
+    margin: 0 2rem;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.inside-box-text h2{
+    font-size: 1.7rem;
+    margin: 2rem 0;  
+}
+
+.inside-box-text p{
+    margin-bottom: 1.5rem;
+}
+
+.inside-box-text .first-p{
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.inside-box-text .second-p{
+    color: rgb(122,134,138);
+    margin-bottom: 2rem;
+}
+
+.boxx{
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.boxx p{
+    width: 90%;
+}
+
+.inside-box-text a{
+    margin: 2rem 0;
+}
+
+.inside-box-text .p-points{
+    margin: 6rem 0 2rem 0;
+}
+
+.points-box{
+    flex-direction: row;
+    flex-wrap: wrap;
 }
