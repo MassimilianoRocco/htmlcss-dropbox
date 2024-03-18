@@ -22,8 +22,8 @@
 
 .b-blue{
     color: white;
-    padding: 1rem;
-    background-color: blue;
+    padding: 1rem 1.5rem;
+    background-color: rgb(0, 97, 255);
     text-decoration: none;
 }
 
@@ -32,7 +32,7 @@
 }
 
 .p90w{
-    width: 90%;
+    width: 85%;
 }
 
 /* HEADER */
@@ -47,7 +47,7 @@ header{
 }
 
 header i{
-    color: blue;
+    color: rgb(0, 97, 255);
 }
 header p{
     margin: 2rem auto;
@@ -167,9 +167,6 @@ input[type="radio"] {
     flex-direction: row;
     flex-wrap: wrap;
 }
-.boxx p{
-    width: 90%;
-}
 
 .inside-box-text a{
     margin: 2rem 0;
@@ -182,4 +179,5 @@ input[type="radio"] {
 .points-box{
     flex-direction: row;
     flex-wrap: wrap;
+    margin-bottom: 5rem;
 }
