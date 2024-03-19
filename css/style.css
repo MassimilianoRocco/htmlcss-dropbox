@@ -181,3 +181,27 @@ input[type="radio"] {
     flex-wrap: wrap;
     margin-bottom: 5rem;
 }
+
+.third-section{
+    width: 60%;
+    margin: 3rem auto;
+    border: 1px solid black;
+}
+.b-border{
+    border-bottom: 1px solid black;
+    padding: 1rem;
+}
+.ent-div{
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 1.5rem 0 1.5rem;
+}
+
+.ent-p-box{
+    max-width: 70%;
+    padding: 0 1.5rem 2rem;
+}
+
+.ent-first-p{
+    margin-bottom: 3rem;
+}
