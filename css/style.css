@@ -28,6 +28,10 @@
 .border{
     border: 1px solid black;
 }
+.b-border{
+    border-bottom: 1px solid black;
+    padding: 1rem;
+}
 
 .T-align-c{
     text-align: center;
@@ -75,7 +79,6 @@
 .bg-green{
     background-color: rgb(162,211,155)
 }
-
 .bg-light-green{
     background-color: rgb(209,233,205)
 }
@@ -254,15 +257,15 @@ input[type="radio"] {
     margin-bottom: 5rem;
 }
 
+
+/* Third Section */
+
 .third-section{
     width: 60%;
     margin: 3rem auto;
     border: 1px solid black;
 }
-.b-border{
-    border-bottom: 1px solid black;
-    padding: 1rem;
-}
+
 .ent-div{
     justify-content: space-between;
     align-items: center;
@@ -374,6 +377,27 @@ input[type="radio"] {
     margin-bottom: 10rem;
 }
 
+
+.eighth-section{
+    padding: 6rem;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.eighth-section h2{
+    font-size: 2rem;
+    color: rgb(97,8,43);
+}
+
+
+.eighth-section .eighth-link{
+    padding: 0.5rem 4rem;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    text-align: center
+}
 
 
 
