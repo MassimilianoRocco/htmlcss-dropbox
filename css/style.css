@@ -309,7 +309,10 @@ input[type="radio"] {
     font-size: 18px;
 }
 
-.fourth-text-box h2,p {
+.fourth-text-box h2 {
+    margin-bottom: 2rem;
+}
+.fourth-text-box p{
     margin-bottom: 2rem;
 }
 
@@ -435,6 +438,44 @@ input[type="radio"] {
 
 .ninth-text-container:hover .hidden-p{
     display: block;
+}
+
+/**** Footer ****/
+
+footer {
+    margin-top: 5rem;
+    background-color: black;
+    padding: 5rem;
+}
+
+.footer-container{
+    width: 70%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-box{
+    color: white;
+    width: calc(100% / 5);
+}
+.footer-box h3{
+    margin-bottom: 2rem;
+}
+.footer-box p{
+    margin-bottom: 1rem;
+}
+
+.lower-footer{
+    color: white;
+    width: 70%;
+    margin: auto;
+    margin-top: 3rem;
+}
+
+.lowfooter-last-p{
+    margin-top: 2rem;
 }
 
 
