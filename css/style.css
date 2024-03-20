@@ -28,6 +28,13 @@
 .border{
     border: 1px solid black;
 }
+.two-border{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.t-border{
+    border-top: 1px solid black;
+}
 .b-border{
     border-bottom: 1px solid black;
     padding: 1rem;
@@ -377,7 +384,7 @@ input[type="radio"] {
     margin-bottom: 10rem;
 }
 
-
+/**** Eighth Section ****/
 .eighth-section{
     padding: 6rem;
     margin: auto;
@@ -400,14 +407,35 @@ input[type="radio"] {
 }
 
 
+/**** Ninth Section ****/
 
+.ninth-section{
+    width: 60%;
+    margin: 5rem auto;
+}
+.ninth-section h2{
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
 
+.ninth-text-container{
+    flex-wrap: wrap;
+    padding-top:  2.5rem;
+}
+.ninth-text-container p{
+    width: 90%;
+}
+#arrow-icon{
+    width: 10%;
+}
 
+.hidden-p{
+    display: none;
+}
 
-
-
-
-
+.ninth-text-container:hover .hidden-p{
+    display: block;
+}
 
 
 
